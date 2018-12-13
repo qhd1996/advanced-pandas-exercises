@@ -59,7 +59,7 @@ def answer_q6():
 
 
 def check_q7(ans):
-    expected = reviews.loc[0:100, ['country', 'variety']]
+    expected = reviews.loc[0:99, ['country', 'variety']]
     return ans.equals(expected)
 
 
